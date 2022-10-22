@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+    <section class="promo">
+        <div class="container">
+            <h1 class="promo__title promo__title--white promo__title--black">Preferences</h1>
+            <h2 class="promo__subtitle promo__subtitle--white promo__subtitle--black">On this page you can configure the main system parameters available for customization</h2>
+            <div class="choice">
+                <div class="choice-item">
+                    <h3 class="choice-item__title choice-item__title--white choice-item__title--black">Company Title</h3>
+                    <input type="text" placeholder="Default" class="choice-item__input choice-item__input--white choice-item__input--black">
+                </div>
+                <div class="choice-item">
+                    <h3 class="choice-item__title choice-item__title--white choice-item__title--black">First Day</h3>
+                    <div class="choice-item__select choice-item__select--white choice-item__select--black">
+                        <div></div>
+                        <img class="choice-item__arrow choice-item__arrow--down" src="icons/arrow-down.svg" alt="arrow">
+                        <img class="choice-item__arrow choice-item__arrow--up-light" src="icons/arrow-up-light.svg" alt="arrow">
+                        <img class="choice-item__arrow choice-item__arrow--up-dark" src="icons/arrow-up-dark.svg" alt="arrow">
+                    </div>
+                    <div class="choice-item-block choice-item-block--hide">
+                        <div class="choice-item-block__option">Monday</div>
+                        <div class="choice-item-block__option">Wednesday</div>
+                        <div class="choice-item-block__option">Sunday</div>
+                    </div>
+                </div>
+                <div class="choice-item">
+                    <h3 class="choice-item__title choice-item__title--white choice-item__title--black">Container Width</h3>
+                    <div class="choice-item__select choice-item__select--white choice-item__select--black">
+                        <div></div>
+                        <img class="choice-item__arrow choice-item__arrow--down" src="icons/arrow-down.svg" alt="arrow">
+                        <img class="choice-item__arrow choice-item__arrow--up-light" src="icons/arrow-up-light.svg" alt="arrow">
+                        <img class="choice-item__arrow choice-item__arrow--up-dark" src="icons/arrow-up-dark.svg" alt="arrow">
+                    </div>
+                    <div class="choice-item-block choice-item-block--hide">
+                        <div class="choice-item-block__option">Fixed</div>
+                        <div class="choice-item-block__option">Lorem</div>
+                        <div class="choice-item-block__option">Ipsum</div>
+                    </div>
+                </div>
+                <div class="choice-item">
+                    <h3 class="choice-item__title choice-item__title--white choice-item__title--black">Homepage</h3>
+                    <div class="choice-item__select choice-item__select--white choice-item__select--black">
+                        <div></div>
+                        <img class="choice-item__arrow choice-item__arrow--down" src="icons/arrow-down.svg" alt="arrow">
+                        <img class="choice-item__arrow choice-item__arrow--up-light" src="icons/arrow-up-light.svg" alt="arrow">
+                        <img class="choice-item__arrow choice-item__arrow--up-dark" src="icons/arrow-up-dark.svg" alt="arrow">
+                    </div>
+                    <div class="choice-item-block choice-item-block--hide">
+                        <div class="choice-item-block__option">Starred Projects</div>
+                        <div class="choice-item-block__option">Lorem</div>
+                        <div class="choice-item-block__option">Ipsum</div>
+                    </div>
+                </div>
+                <div class="choice-item">
+                    <h3 class="choice-item__title choice-item__title--white choice-item__title--black">Indent Size</h3>
+                    <input type="text" placeholder="Default" class="choice-item__input choice-item__input--white choice-item__input--black">
+                </div>
+                <div class="choice-item">
+                    <h3 class="choice-item__title choice-item__title--white choice-item__title--black">Personal Code</h3>
+                    <div class="choice-item-wrapper">
+                        <div class="choice-item-inputs">
+                            <input type="text" class="choice-item__input choice-item__input--mini choice-item__input--white choice-item__input--black">
+                            <span>-</span>
+                            <input type="text" class="choice-item__input choice-item__input--mini choice-item__input--white choice-item__input--black">
+                            <span>-</span>
+                            <input type="text" class="choice-item__input choice-item__input--mini choice-item__input--white choice-item__input--black">
+                        </div>
+                        <div class="choice-item__signature">12 digits</div>
+                    </div>
+                </div>
+                <div class="choice-item">
+                    <h3 class="choice-item__title choice-item__title--white choice-item__title--black">Theme</h3>
+                    <div class="choice-item-theme">
+                        <div class="choice-item-theme__form">
+                            <input type="radio" checked name="theme" value="Light" class="theme" id="radioLight">
+                            <label for="radiolight">Light</label>
+                        </div>
+                        <div class="choice-item-theme__form">
+                            <input type="radio" name="theme" value="Dark" class="theme" id="radioDark">
+                            <label for="radiodark">Dark</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="buttons__btn" id="saveButton">Apply and Save</button>
+                <button class="buttons__btn buttons__btn--mini">Cancel</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__signature">
+                2020-2022
+                <a href="#">Terms of Service</a>
+                and
+                <a href="#">Conditions</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
